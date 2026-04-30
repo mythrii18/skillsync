@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyclone | Hiring Platform</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo">
+    <div class="logo-icon">C</div>
+    <b>Cyclone</b>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>Skill-first hiring platform</h1>
+    <p>Matching talent with opportunity through real skill evaluation.</p>
+  </div>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80" alt="Software Engineer">
+    <h3>Software Engineer</h3>
+    <p>Build scalable systems and backend services.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80" alt="Machine Learning Intern">
+    <h3>Machine Learning Intern</h3>
+    <p>Work on AI models and datasets.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" alt="Frontend Engineer">
+    <h3>Frontend Engineer</h3>
+    <p>Create modern UI experiences.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data Analyst">
+    <h3>Data Analyst</h3>
+    <p>Analyze data and generate insights.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80" alt="DevOps Engineer">
+    <h3>DevOps Engineer</h3>
+    <p>Manage CI/CD and cloud infrastructure.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80" alt="Cybersecurity Analyst">
+    <h3>Cybersecurity Analyst</h3>
+    <p>Protect systems and manage threats.</p>
+  </div>
+</div>
+
+<!-- Chat -->
+<div class="chat-label" id="chat-label">� Need help with your career? Ask me!</div>
+<div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+<div class="chatbot" id="chatbot">
+  <div class="chat-header">
+    <span>💼 Skill Sync</span>
+    <span onclick="toggleChat()" style="cursor:pointer;">✖</span>
+  </div>
+  <div class="chatbox" id="chatbox">
+    <div class="message bot">👋 Hello! I'm Skill Sync!</div>
+    <div class="message bot">I can help you with:</div>
+    <div class="message bot">• Job vacancies and roles</div>
+    <div class="message bot">• Salary and stipend details</div>
+    <div class="message bot">• Hiring process and interview prep</div>
+    <div class="message bot">• How to apply</div>
+    <div class="message bot">💼 Ask me anything!</div>
+  </div>
+  <div class="upload">
+    <input type="file" id="resume" onchange="uploadResume()">
+  </div>
+  <div class="input-area">
+    <input id="input" placeholder="Type a message…">
+    <button onclick="sendMsg()">Send</button>
+  </div>
+</div>
+
+<script>
+function toggleChat() {
+  const chat = document.getElementById('chatbot');
+  const label = document.getElementById('chat-label');
+  const isOpen = chat.style.display === 'flex';
+  chat.style.display = isOpen ? 'none' : 'flex';
+  label.style.display = isOpen ? 'block' : 'none';
+}
+
+function addMsg(text, type) {
+  const m = document.createElement('div');
+  m.className = 'message ' + type;
+  
+  if (type === 'bot') {
+    // Use pre tag to preserve formatting for bot messages
+    const pre = document.createElement('pre');
+    pre.textContent = text;
+    pre.style.margin = '0';
+    pre.style.fontFamily = 'monospace';
+    pre.style.whiteSpace = 'pre-wrap';
+    pre.style.wordWrap = 'break-word';
+    m.appendChild(pre);
+  } else {
+    m.innerHTML = text;
+  }
+  
+  const box = document.getElementById('chatbox');
+  box.appendChild(m);
+  box.scrollTop = box.scrollHeight;
+}
+
+function sendMsg() {
+  const input = document.getElementById('input');
+  const text = input.value.trim();
+  if (!text) return;
+  addMsg(text, 'user');
+  input.value = '';
+  
+  // Send message to backend API
+  fetch('/chat', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ message: text })
+  })
+  .then(response => response.json())
+  .then(data => {
+    addMsg(data.response, 'bot');
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    addMsg("❌ Error connecting to server. Please try again.", 'bot');
+  });
+}
+
+document.getElementById('input').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') sendMsg();
+});
+
+function uploadResume() {
+  const fileInput = document.getElementById('resume');
+  const file = fileInput.files[0];
+  if (file) {
+    addMsg("📄 Analyzing: " + file.name, 'user');
+    
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const text = e.target.result;
+      
+      // Send to backend for analysis
+      fetch('/analyze-resume', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ resume: text, company: 'Cyclone' })
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Show the analysis report in the chat
+          const report = data.report;
+          const html = data.html;
+          
+          // Add overall score message
+          addMsg(`📊 Overall Score: ${report.overall_score}% (${report.scores.skill_match.label})`, 'bot');
+          
+          // Add detailed report
+          const reportDiv = document.createElement('div');
+          reportDiv.className = 'message bot';
+          reportDiv.innerHTML = html;
+          document.getElementById('chatbox').appendChild(reportDiv);
+          document.getElementById('chatbox').scrollTop = document.getElementById('chatbox').scrollHeight;
+        } else {
+          addMsg("❌ Analysis failed: " + data.error, 'bot');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        addMsg("❌ Error analyzing resume. Please try again.", 'bot');
+      });
+    };
+    reader.readAsText(file);
+  }
+}
+</script>
+</body>
+</html>

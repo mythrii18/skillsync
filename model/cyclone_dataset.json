@@ -1,0 +1,460 @@
+{
+  "company": {
+    "name": "Cyclone",
+    "tagline": "Build Fast. Ship Smart. Scale Fearlessly.",
+    "description": "Cyclone is a product-first app development company founded in 2018, headquartered in Bangalore. We design and build high-performance mobile and web applications for startups, scale-ups, and Fortune 500 clients across fintech, edtech, healthtech, and e-commerce. With a team of 120+ engineers, designers, and product managers, we have shipped over 85 products used by more than 4 million users worldwide.",
+    "founded": "2018",
+    "team_size": "120+",
+    "clients_served": "85+ products shipped",
+    "headquarters": "Bangalore, India",
+    "website": "https://cyclone.io",
+    "email": "careers@cyclone.io",
+    "domains": ["fintech", "edtech", "healthtech", "e-commerce", "SaaS"]
+  },
+
+  "roles": [
+    {
+      "title": "Junior App Developer",
+      "department": "Engineering",
+      "description": "Join Cyclone's core engineering team to build mobile and web apps used by millions. You will work directly with senior engineers, contribute to real client projects from day one, and grow through structured mentorship.",
+      "responsibilities": [
+        "Build and ship features for iOS, Android, and web apps",
+        "Write clean, well-documented, and testable code",
+        "Collaborate with UI/UX designers using Figma handoffs",
+        "Integrate REST APIs and Firebase services",
+        "Participate in daily standups and sprint planning",
+        "Conduct and receive peer code reviews",
+        "Debug, profile, and optimize app performance",
+        "Write unit and widget tests for your features"
+      ],
+      "team_structure": "You will be part of a 4–6 person squad with a tech lead, senior dev, designer, and QA engineer.",
+      "salary": "₹4.5 LPA – ₹7 LPA",
+      "experience_required": "0–2 years",
+      "skills_required": ["Flutter", "Dart", "React Native", "Firebase", "REST APIs"]
+    },
+    {
+      "title": "Data Analyst",
+      "department": "Analytics & Insights",
+      "description": "Join our Analytics team to transform raw data into actionable insights. You'll work with product teams to understand user behavior, drive data-informed decisions, and help clients optimize their applications for better performance and user engagement.",
+      "responsibilities": [
+        "Analyze user behavior and product metrics using SQL and Python",
+        "Create dashboards and reports using Tableau or Power BI",
+        "Conduct A/B testing and statistical analysis",
+        "Identify trends, patterns, and anomalies in large datasets",
+        "Collaborate with product and engineering teams on data strategies",
+        "Present findings and recommendations to stakeholders",
+        "Build data pipelines and automate reporting",
+        "Track KPIs and measure business impact"
+      ],
+      "team_structure": "Work in a 3-4 person analytics team with senior analysts and data engineers.",
+      "salary": "₹5 LPA – ₹8 LPA",
+      "experience_required": "1–3 years",
+      "skills_required": ["SQL", "Python", "Google Analytics", "Tableau", "Power BI", "Excel", "Statistics"]
+    },
+    {
+      "title": "Frontend Engineer",
+      "department": "Engineering",
+      "description": "Lead the creation of beautiful, performant user interfaces. Build web applications using modern frameworks like React and TypeScript, working closely with designers to bring pixel-perfect designs to life.",
+      "responsibilities": [
+        "Build responsive web applications using React and TypeScript",
+        "Implement pixel-perfect UI designs from Figma",
+        "Optimize web performance and ensure cross-browser compatibility",
+        "Write clean, maintainable, and well-tested code",
+        "Collaborate with backend engineers on API integration",
+        "Participate in code reviews and architecture discussions",
+        "Debug and resolve frontend issues in production",
+        "Stay updated with latest web technologies and best practices"
+      ],
+      "team_structure": "Work in a squad with other frontend engineers, product designers, and backend teams.",
+      "salary": "₹5 LPA – ₹9 LPA",
+      "experience_required": "1–3 years",
+      "skills_required": ["React", "TypeScript", "JavaScript", "CSS", "HTML"]
+    },
+    {
+      "title": "Backend Engineer",
+      "department": "Engineering",
+      "description": "Design and build scalable backend systems that power Cyclone's applications. You'll work on APIs, databases, and cloud infrastructure serving millions of users across fintech, edtech, and other domains.",
+      "responsibilities": [
+        "Design and implement RESTful APIs and microservices",
+        "Build robust database schemas and optimize queries",
+        "Work with cloud platforms like AWS or Google Cloud",
+        "Implement authentication, security, and data validation",
+        "Write clean, maintainable code with comprehensive testing",
+        "Collaborate on system design and architecture decisions",
+        "Monitor, debug, and optimize backend performance",
+        "Participate in on-call rotation for production support"
+      ],
+      "team_structure": "Join a team of backend engineers working on multiple client projects.",
+      "salary": "₹6 LPA – ₹10 LPA",
+      "experience_required": "1–4 years",
+      "skills_required": ["Node.js", "Python", "REST APIs", "PostgreSQL", "AWS", "Docker"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "department": "Infrastructure",
+      "description": "Build and maintain the infrastructure that powers Cyclone's applications. Manage CI/CD pipelines, cloud infrastructure, and ensure reliable, secure deployments across multiple environments.",
+      "responsibilities": [
+        "Design and implement CI/CD pipelines using Jenkins and GitLab",
+        "Manage cloud infrastructure on AWS/GCP",
+        "Containerize applications and manage Kubernetes clusters",
+        "Implement monitoring, logging, and alerting systems",
+        "Ensure security best practices and compliance",
+        "Automate infrastructure provisioning using Terraform",
+        "Troubleshoot and resolve infrastructure issues",
+        "Collaborate with engineering teams on deployment strategies"
+      ],
+      "team_structure": "Work in a 3-5 person DevOps team supporting all engineering squads.",
+      "salary": "₹7 LPA – ₹11 LPA",
+      "experience_required": "2–5 years",
+      "skills_required": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Terraform"]
+    },
+    {
+      "title": "Quality Assurance Engineer",
+      "department": "QA & Testing",
+      "description": "Ensure the quality of Cyclone's applications through comprehensive testing strategies. Work with development teams to identify bugs, improve test coverage, and maintain high quality standards.",
+      "responsibilities": [
+        "Create and execute comprehensive test plans and test cases",
+        "Perform manual and automated testing on web and mobile apps",
+        "Write automated tests using Selenium, Jest, or similar tools",
+        "Identify, report, and track bugs with clear documentation",
+        "Collaborate with developers on quality improvements",
+        "Perform performance and load testing",
+        "Maintain test documentation and automation frameworks",
+        "Support continuous integration and deployment processes"
+      ],
+      "team_structure": "Work with development squads as a dedicated QA engineer.",
+      "salary": "₹4 LPA – ₹6.5 LPA",
+      "experience_required": "1–3 years",
+      "skills_required": ["Test Automation", "SQL", "Manual Testing", "Selenium", "API Testing"]
+    },
+    {
+      "title": "UI/UX Designer",
+      "department": "Design",
+      "description": "Craft beautiful, intuitive user experiences for mobile and web applications. Collaborate with product and engineering teams to design interfaces that users love and that drive business results.",
+      "responsibilities": [
+        "Create wireframes, mockups, and prototypes using Figma",
+        "Design responsive user interfaces for web and mobile platforms",
+        "Conduct user research and usability testing",
+        "Create and maintain design systems and component libraries",
+        "Collaborate with product managers on user requirements",
+        "Iterate on designs based on user feedback",
+        "Document design decisions and design specs",
+        "Stay updated with design trends and best practices"
+      ],
+      "team_structure": "Work in a design team of 3-4 designers supporting multiple product teams.",
+      "salary": "₹5 LPA – ₹8.5 LPA",
+      "experience_required": "1–3 years",
+      "skills_required": ["Figma", "Prototyping", "User Research", "Wireframing", "Adobe Creative Suite"]
+    },
+    {
+      "title": "Product Manager",
+      "department": "Product",
+      "description": "Drive the strategy and direction of Cyclone's products. Work with engineering, design, and stakeholders to define product vision, prioritize features, and deliver solutions that solve real user problems.",
+      "responsibilities": [
+        "Define product vision, strategy, and roadmap",
+        "Conduct market research and competitive analysis",
+        "Gather and prioritize user requirements",
+        "Create product specifications and user stories",
+        "Collaborate with design and engineering on execution",
+        "Analyze product metrics and user feedback",
+        "Manage product lifecycle from conception to launch",
+        "Present product updates to stakeholders and clients"
+      ],
+      "team_structure": "Work as a PM with dedicated engineering and design squads.",
+      "salary": "₹8 LPA – ₹13 LPA",
+      "experience_required": "2–5 years",
+      "skills_required": ["Product Strategy", "Data Analysis", "Figma", "SQL", "Communication"]
+    }
+  ],
+
+  "job_details": {
+    "location": "Bangalore, Karnataka, India",
+    "work_mode": "Hybrid — 3 days in office (Tue, Wed, Thu), 2 days remote",
+    "office_address": "Cyclone HQ, 4th Floor, Prestige Tech Park, Marathahalli, Bangalore – 560037",
+    "stipend_intern": "₹15,000 – ₹20,000/month (internship track)",
+    "salary_fulltime": "₹4.5 LPA – ₹13 LPA (based on role and skills)",
+    "probation": "3 months probation period",
+    "joining": "Immediate to 30 days notice preferred"
+  },
+
+  "perks": [
+    "MacBook Pro provided from day one",
+    "₹10,000 annual learning & certification budget",
+    "Health insurance for employee + 1 dependent",
+    "Flexible work hours (core hours 11am–4pm)",
+    "Team off-sites twice a year",
+    "Access to Udemy, Coursera, and internal tech talks",
+    "Free lunch on office days",
+    "ESOPs for full-time hires after 1 year"
+  ],
+
+  "application": {
+    "apply_link": "https://cyclone.io/careers/apply",
+    "deadline": "Rolling basis - apply soon",
+    "contact_email": "careers@cyclone.io",
+    "referral": "Employee referrals are given priority. Ask your referrer to email hr@cyclone.io."
+  },
+
+  "assessment": {
+    "platform": "HackerEarth",
+    "duration": "90 minutes",
+    "topics": ["Data Structures", "Algorithms", "Flutter/JS basics", "1 take-home UI task"],
+    "difficulty": "Easy to Medium",
+    "tip": "Practice arrays, strings, and basic recursion. The UI task involves building a simple screen in Flutter or React Native."
+  },
+
+  "hiring_process": "Resume Screening → Online Coding Assessment (90 min) → Technical Interview (60 min) → Culture Fit Round (30 min) → Offer Letter",
+
+  "hiring_timeline": "Typically 2–3 weeks from application to offer.",
+
+  "eligibility": {
+    "education": "B.Tech / BCA / B.Sc in Computer Science, IT, or related field",
+    "experience": "0–2 years (freshers with strong projects are welcome)",
+    "cgpa": "No minimum CGPA requirement — we care about skills, not scores",
+    "backlog_policy": "Active backlogs are not preferred, but past cleared backlogs are fine"
+  },
+
+  "culture": {
+    "values": ["Ownership over blame", "Ship fast, iterate faster", "Radical transparency", "Customer obsession"],
+    "work_style": "Agile sprints (2-week cycles). You own your features end-to-end.",
+    "growth": "Engineers at Cyclone are promoted based on output and ownership, not tenure. Average time to mid-level: 18 months.",
+    "diversity": "40% of our engineering team identifies as women. We are an equal opportunity employer."
+  },
+
+  "interview_guidance": {
+    "technical_round": {
+      "duration": "60 minutes",
+      "format": "Conversational — not a whiteboard quiz",
+      "what_to_expect": [
+        "Code walkthrough of your own project (10–15 min)",
+        "1–2 DSA problems (arrays, strings, or recursion)",
+        "Basic system design question (e.g., design a URL shortener)",
+        "Flutter/React Native concept questions"
+      ],
+      "common_questions": [
+        "Explain your most complex project end-to-end.",
+        "What is the difference between StatefulWidget and StatelessWidget in Flutter?",
+        "How do you handle state management in your apps?",
+        "Explain REST API and how you've used it in a project.",
+        "What is the difference between Git merge and Git rebase?",
+        "How would you optimize a slow Flutter app?",
+        "What is async/await and how does it work in Dart?",
+        "Explain the difference between SQL and NoSQL databases."
+      ]
+    },
+    "culture_fit_round": {
+      "duration": "30 minutes",
+      "format": "HR + one senior engineer",
+      "what_to_expect": [
+        "Behavioral questions using STAR format",
+        "Questions about ownership and accountability",
+        "Discussion on how you handle feedback and failure",
+        "Why Cyclone specifically"
+      ],
+      "common_questions": [
+        "Tell me about a time you took ownership of a failing project.",
+        "How do you handle tight deadlines?",
+        "Describe a situation where you disagreed with a teammate.",
+        "Why do you want to join Cyclone over other companies?",
+        "Where do you see yourself in 2 years?"
+      ]
+    },
+    "preparation_tips": [
+      "Revise arrays, strings, linked lists, and basic recursion before the coding round.",
+      "Be ready to explain every line of your project — interviewers go deep.",
+      "Practice the STAR method (Situation, Task, Action, Result) for behavioral questions.",
+      "Read about Cyclone's past projects and clients before the culture fit round.",
+      "Know your state management approach — BLoC, Provider, or Riverpod.",
+      "Prepare 2–3 questions to ask the interviewer — it shows genuine interest."
+    ]
+  },
+
+  "qa_dataset": {
+    "small": [
+      {
+        "patterns": ["how many vacancies", "how many jobs", "open positions", "job openings", "vacant roles", "hiring positions", "available jobs", "current openings", "list of jobs", "what roles are open", "which roles are hiring", "what positions are open"],
+        "response": "We have 8 open positions: Junior App Developer, Data Analyst, Frontend Engineer, Backend Engineer, DevOps Engineer, QA Engineer, UI/UX Designer, and Product Manager. All roles are in Bangalore with hybrid work mode."
+      },
+      {
+        "patterns": ["what is ctc", "salary range", "package details", "how much pay", "earnings", "monthly salary", "annual salary", "pay scale", "salary offered"],
+        "response": "Salary ranges: Junior App Dev ₹4.5-7LPA, Data Analyst ₹5-8LPA, Frontend ₹5-9LPA, Backend ₹6-10LPA, DevOps ₹7-11LPA, QA ₹4-6.5LPA, UI/UX ₹5-8.5LPA, PM ₹8-13LPA. Internship: ₹15-20K/month."
+      },
+      {
+        "patterns": ["stipend", "internship pay", "intern salary", "internship allowance", "intern earnings"],
+        "response": "Internship stipend: ₹15,000 – ₹20,000/month based on performance. Interns get MacBook, learning budget, and potential conversion to full-time."
+      },
+      {
+        "patterns": ["location", "office address", "where", "city", "bangalore", "bangalore location", "office location"],
+        "response": "Office: Cyclone HQ, 4th Floor, Prestige Tech Park, Marathahalli, Bangalore – 560037. Well connected by metro (Purple Line)."
+      },
+      {
+        "patterns": ["work mode", "remote", "wfh", "work from home", "hybrid", "office days", "work from office"],
+        "response": "Hybrid model: Tue, Wed, Thu in-office. Mon & Fri remote. Core hours: 11am-4pm. Flexible outside core hours."
+      },
+      {
+        "patterns": ["deadline", "last date", "close", "when apply", "application deadline", "last date to apply"],
+        "response": "We accept applications on rolling basis. Apply soon as positions fill fast. Shortlisting within 5 business days."
+      },
+      {
+        "patterns": ["bond", "service agreement", "lock in", "contract"],
+        "response": "No bond, no service agreement, no lock-in. We believe good work and good culture retain people — not contracts."
+      },
+      {
+        "patterns": ["cgpa", "percentage", "academic criteria", "marks required", "eligibility criteria", "minimum marks"],
+        "response": "No minimum CGPA requirement — we care about skills, not scores. Active backlogs not preferred, but past cleared backlogs are fine."
+      },
+      {
+        "patterns": ["fresher", "fresh graduate", "new graduate", "no experience", "0 experience", "entry level"],
+        "response": "Yes! Freshers with strong projects are welcome for Junior App Developer role. A degree alone won't get you in — but great portfolio will."
+      },
+      {
+        "patterns": ["experience required", "years needed", "experience needed", "eligibility experience"],
+        "response": "Experience varies by role: Junior App Dev 0-2 yrs, Data Analyst 1-3 yrs, Frontend 1-3 yrs, Backend 1-4 yrs, DevOps 2-5 yrs, QA 1-3 yrs, UI/UX 1-3 yrs, PM 2-5 yrs."
+      },
+      {
+        "patterns": ["apply link", "how to apply", "apply online", "application link", "send resume", "submit application"],
+        "response": "Apply at: https://cyclone.io/careers/apply. Submit resume + link to at least one project (GitHub, Play Store, App Store, or portfolio)."
+      },
+      {
+        "patterns": ["contact email", "reach out", "contact", "email id", "whom to contact"],
+        "response": "Contact: careers@cyclone.io. For referrals, ask your referrer to email hr@cyclone.io."
+      },
+      {
+        "patterns": ["laptop", "macbook", "device", "equipment"],
+        "response": "MacBook Pro provided from day one for all engineers."
+      },
+      {
+        "patterns": ["perks", "benefits", "allowances", "advantages"],
+        "response": "Perks: MacBook Pro, ₹10K annual learning budget, health insurance, flexible hours, team off-sites, free lunch, ESOPs after 1 year."
+      },
+      {
+        "patterns": ["tech stack", "technologies", "tech used", "tools used", "frameworks"],
+        "response": "Tech: Flutter, Dart, React Native, React, TypeScript, Node.js, Python, AWS, Docker, PostgreSQL, Firebase."
+      }
+    ],
+    "medium": [
+      {
+        "patterns": ["hiring process", "interview process", "selection process", "how to get selected", "selection steps", "interview rounds"],
+        "response": "Our hiring process:\n1) Resume Screening (5 business days)\n2) Technical Assessment - 90 min on HackerEarth\n3) Technical Interview - 60 min (project walkthrough + DSA)\n4) Culture Fit Round - 30 min (HR + senior engineer)\n\nTotal timeline: 2-3 weeks. Each stage has clear feedback."
+      },
+      {
+        "patterns": ["what is junior app developer", "tell me about junior app developer", "describe junior app developer", "app developer role"],
+        "response": "Junior App Developer role:\n• Build mobile/web apps using Flutter, React Native\n• Write clean, testable code\n• Integrate REST APIs & Firebase\n• Work in 4-6 person squad with tech lead, senior dev, designer, QA\n• Salary: ₹4.5-7 LPA\n• Experience: 0-2 years\n\nYou will contribute to real client projects from day one with structured mentorship."
+      },
+      {
+        "patterns": ["data analyst role", "tell me about data analyst", "describe data analyst", "data analyst job"],
+        "response": "Data Analyst role:\n• Transform raw data into actionable insights\n• Analyze user behavior using SQL & Python\n• Create dashboards with Tableau/Power BI\n• Conduct A/B testing & statistical analysis\n• Work in 3-4 person analytics team\n• Salary: ₹5-8 LPA\n• Experience: 1-3 years\n\nRequirements: SQL, Python, Google Analytics, Tableau/Power BI, Statistics."
+      },
+      {
+        "patterns": ["frontend engineer", "frontend role", "describe frontend", "frontend developer"],
+        "response": "Frontend Engineer role:\n• Build responsive web apps using React & TypeScript\n• Implement pixel-perfect UI from Figma\n• Optimize web performance\n• Collaborate with backend on API integration\n• Salary: ₹5-9 LPA\n• Experience: 1-3 years\n\nSkills: React, TypeScript, JavaScript, CSS, HTML"
+      },
+      {
+        "patterns": ["backend engineer", "backend role", "describe backend", "backend developer"],
+        "response": "Backend Engineer role:\n• Design & implement RESTful APIs & microservices\n• Build robust database schemas\n• Work with AWS/Google Cloud\n• Implement authentication & security\n• Salary: ₹6-10 LPA\n• Experience: 1-4 years\n\nSkills: Node.js, Python, REST APIs, PostgreSQL, AWS, Docker"
+      },
+      {
+        "patterns": ["devops engineer", "devops role", "describe devops", "devops job"],
+        "response": "DevOps Engineer role:\n• Design & implement CI/CD pipelines (Jenkins, GitLab)\n• Manage cloud infrastructure (AWS/GCP)\n• Containerize apps & manage Kubernetes\n• Implement monitoring & alerting\n• Salary: ₹7-11 LPA\n• Experience: 2-5 years\n\nSkills: Docker, Kubernetes, AWS, CI/CD, Linux, Terraform"
+      },
+      {
+        "patterns": ["qa engineer", "qa role", "describe qa", "testing job"],
+        "response": "QA Engineer role:\n• Create & execute test plans & cases\n• Perform manual & automated testing\n• Write automated tests (Selenium, Jest)\n• Identify & track bugs\n• Salary: ₹4-6.5 LPA\n• Experience: 1-3 years\n\nSkills: Test Automation, SQL, Manual Testing, Selenium, API Testing"
+      },
+      {
+        "patterns": ["ui ux designer", "ui ux role", "describe designer", "designer job"],
+        "response": "UI/UX Designer role:\n• Create wireframes, mockups, prototypes (Figma)\n• Design responsive interfaces for web & mobile\n• Conduct user research & usability testing\n• Create design systems & component libraries\n• Salary: ₹5-8.5 LPA\n• Experience: 1-3 years\n\nSkills: Figma, Prototyping, User Research, Wireframing"
+      },
+      {
+        "patterns": ["product manager", "pm role", "describe pm", "product job"],
+        "response": "Product Manager role:\n• Define product vision, strategy, roadmap\n• Conduct market research & competitive analysis\n• Gather & prioritize user requirements\n• Manage product lifecycle\n• Salary: ₹8-13 LPA\n• Experience: 2-5 years\n\nSkills: Product Strategy, Data Analysis, Figma, SQL, Communication"
+      },
+      {
+        "patterns": ["assessment", "coding test", "technical test", "exam", "hackerearth"],
+        "response": "Technical Assessment details:\n• Platform: HackerEarth\n• Duration: 90 minutes\n• Topics: Data Structures, Algorithms, Flutter/JS basics\n• Plus: 1 take-home UI task\n• Difficulty: Easy to Medium\n\nTip: Practice arrays, strings, basic recursion. UI task: build simple screen in Flutter or React Native."
+      },
+      {
+        "patterns": ["technical interview", "tech round", "technical round"],
+        "response": "Technical Interview (60 min):\n• Format: Conversational — not a whiteboard quiz\n• Code walkthrough of your project (10-15 min)\n• 1-2 DSA problems (arrays, strings, recursion)\n• Basic system design question\n• Role-specific concept questions\n\nBring a working demo or GitHub link of your best project. Be ready to explain every line."
+      },
+      {
+        "patterns": ["culture fit", "hr round", "behavioral round"],
+        "response": "Culture Fit Round (30 min):\n• Format: HR + one senior engineer\n• Behavioral questions using STAR format\n• Questions about ownership & accountability\n• Discussion on handling feedback & failure\n• Why Cyclone specifically\n\nPrepare 2-3 questions to ask interviewer — shows genuine interest."
+      },
+      {
+        "patterns": ["preparation tips", "how to prepare", "interview tips", "advice"],
+        "response": "Preparation Tips:\n• Revise arrays, strings, linked lists, recursion\n• Be ready to explain every line of your project\n• Practice STAR method for behavioral questions\n• Read about Cyclone's projects before interview\n• Know your state management approach\n• Prepare questions to ask interviewer\n\nDo: Bring working demo, be honest about gaps, show enthusiasm.\nDon't: Memorize answers, bad-mouth previous companies, stay silent if stuck."
+      },
+      {
+        "patterns": ["company culture", "work culture", "work environment", "values"],
+        "response": "Our Culture:\n• Values: Ownership over blame, Ship fast iterate faster, Radical transparency, Customer obsession\n• Work Style: Agile sprints (2-week cycles). You own features end-to-end.\n• Growth: Promoted based on output, not tenure. Avg time to mid-level: 18 months.\n• Diversity: 40% women in engineering. Equal opportunity employer."
+      },
+      {
+        "patterns": ["skills required", "what skills needed", "required skills", "eligibility skills"],
+        "response": "Skills by Role:\n• Junior App Dev: Flutter, Dart, React Native, Firebase, REST APIs\n• Data Analyst: SQL, Python, Tableau, Power BI, Statistics\n• Frontend: React, TypeScript, JavaScript, CSS\n• Backend: Node.js, Python, PostgreSQL, AWS\n• DevOps: Docker, Kubernetes, AWS, CI/CD, Terraform\n• QA: Test Automation, Selenium, API Testing\n• UI/UX: Figma, Prototyping, User Research\n• PM: Product Strategy, Data Analysis, SQL"
+      }
+    ],
+    "big": [
+      {
+        "patterns": ["tell me about company", "about cyclone", "company overview", "what is cyclone", "describe company", "cyclone info", "company details"],
+        "response": "About Cyclone:\n\nCyclone is a product-first app development company founded in 2018, headquartered in Bangalore. We design and build high-performance mobile and web applications for startups, scale-ups, and Fortune 500 clients across fintech, edtech, healthtech, e-commerce, and SaaS.\n\nWith a team of 120+ engineers, designers, and product managers, we have shipped over 85 products used by more than 4 million users worldwide.\n\nOur tagline: 'Build Fast. Ship Smart. Scale Fearlessly.'\n\nWe're a premium tech studio, not just a service company. We work with clients like fintech unicorns, leading edtech platforms, and healthcare innovators.\n\nFor more details, visit: https://cyclone.io"
+      },
+      {
+        "patterns": ["full job description", "job details", "role details", "complete role info", "detailed job"],
+        "response": "Complete Job Descriptions:\n\n1) Junior App Developer (₹4.5-7 LPA, 0-2 yrs)\nBuild mobile/web apps using Flutter, React Native. Write clean code, integrate APIs, work in squads. Skills: Flutter, Dart, Firebase, REST APIs.\n\n2) Data Analyst (₹5-8 LPA, 1-3 yrs)\nAnalyze user behavior, create dashboards, conduct A/B testing. Skills: SQL, Python, Tableau, Power BI.\n\n3) Frontend Engineer (₹5-9 LPA, 1-3 yrs)\nBuild React/TypeScript web apps, implement Figma designs. Skills: React, TypeScript, CSS.\n\n4) Backend Engineer (₹6-10 LPA, 1-4 yrs)\nDesign APIs & microservices, build databases, work with AWS. Skills: Node.js, Python, PostgreSQL.\n\n5) DevOps Engineer (₹7-11 LPA, 2-5 yrs)\nManage CI/CD, cloud infrastructure, Kubernetes. Skills: Docker, Kubernetes, AWS, Terraform.\n\n6) QA Engineer (₹4-6.5 LPA, 1-3 yrs)\nCreate test plans, perform testing, write automation. Skills: Selenium, API Testing.\n\n7) UI/UX Designer (₹5-8.5 LPA, 1-3 yrs)\nCreate wireframes, prototypes, design systems. Skills: Figma, User Research.\n\n8) Product Manager (₹8-13 LPA, 2-5 yrs)\nDefine product vision, roadmap, collaborate with teams. Skills: Product Strategy, SQL.\n\nAll roles: Hybrid (Tue-Thu office), MacBook Pro, health insurance, learning budget."
+      },
+      {
+        "patterns": ["complete hiring process", "detailed interview process", "full selection process", "step by step process"],
+        "response": "Complete Hiring Process:\n\nStage 1: Resume Screening (5 business days)\n- Submit resume + project links (GitHub, Play Store, App Store, or portfolio)\n- Shortlisted candidates contacted within 5 days\n- Ensure your resume highlights relevant skills and projects\n\nStage 2: Technical Assessment (90 minutes on HackerEarth)\n- Data Structures & Algorithms questions\n- Flutter/React Native basics\n- 1 take-home UI task\n- Difficulty: Easy to Medium\n- Practice: arrays, strings, basic recursion\n\nStage 3: Technical Interview (60 minutes)\n- Conversational format — not a whiteboard quiz\n- Code walkthrough of your project (10-15 min)\n- 1-2 DSA problems (arrays, strings, recursion)\n- Basic system design question\n- Role-specific concept questions\n\nStage 4: Culture Fit Round (30 minutes)\n- HR + one senior engineer\n- Behavioral questions using STAR format\n- Questions about ownership & accountability\n- Discussion on handling feedback & failure\n- Why Cyclone specifically\n\nTotal Timeline: 2-3 weeks from application to offer.\n\nEach stage has clear feedback. If not selected, we provide constructive feedback to help you improve."
+      },
+      {
+        "patterns": ["eligibility criteria", "who can apply", "am i eligible", "eligibility requirements"],
+        "response": "Eligibility Criteria:\n\nEducation:\n• B.Tech / BCA / B.Sc in Computer Science, IT, or related field\n• We also consider candidates from other backgrounds with strong tech skills\n\nExperience:\n• Varies by role (0-5 years as specified in job descriptions)\n• Freshers welcome for Junior App Developer role\n\nAcademic:\n• No minimum CGPA requirement — we care about skills, not scores\n• Active backlogs: Not preferred\n• Past cleared backlogs: Fine\n\nWhat we value more than credentials:\n• Strong portfolio with working projects\n• Problem-solving ability\n• Good communication skills\n• Eagerness to learn and grow\n• Ownership mindset\n\nNote: A degree alone won't get you in — but great portfolio will!"
+      },
+      {
+        "patterns": ["salary details", "complete salary", "compensation details", "pay details"],
+        "response": "Complete Salary & Compensation:\n\nFull-Time Salaries (annual):\n• Junior App Developer: ₹4.5 LPA – ₹7 LPA\n• Data Analyst: ₹5 LPA – ₹8 LPA\n• Frontend Engineer: ₹5 LPA – ₹9 LPA\n• Backend Engineer: ₹6 LPA – ₹10 LPA\n• DevOps Engineer: ₹7 LPA – ₹11 LPA\n• QA Engineer: ₹4 LPA – ₹6.5 LPA\n• UI/UX Designer: ₹5 LPA – ₹8.5 LPA\n• Product Manager: ₹8 LPA – ₹13 LPA\n\nInternship:\n• Stipend: ₹15,000 – ₹20,000/month\n• Duration: 6 months\n• Perks: MacBook, learning budget\n• Conversion: Performance-based full-time offer\n\nFactors affecting salary:\n• Role and experience level\n• Interview performance\n• Skills match with role requirements\n• Project portfolio quality\n\nNote: Final offer depends on interview performance. We also have ESOPs for full-time hires after 1 year.\n\nFor detailed compensation discussion, apply at https://cyclone.io/careers/apply"
+      },
+      {
+        "patterns": ["benefits", "complete perks", "employee benefits", "what do you offer"],
+        "response": "Complete Employee Benefits:\n\n💻 Equipment:\n• MacBook Pro provided from day one\n• All necessary software licenses\n\n📚 Learning:\n• ₹10,000 annual learning & certification budget\n• Access to Udemy, Coursera\n• Internal tech talks and knowledge sessions\n\n🏥 Health:\n• Health insurance for employee + 1 dependent\n• Regular health check-ups\n\n⏰ Work Flexibility:\n• Hybrid work model (Tue-Thu office, Mon & Fri remote)\n• Flexible work hours (core hours 11am-4pm)\n• Work from home options\n\n🎉 Culture:\n• Team off-sites twice a year\n• Free lunch on office days\n• Agile sprints with collaborative environment\n\n📈 Growth:\n• Promoted based on output and ownership, not tenure\n• Average time to mid-level: 18 months\n• Structured mentorship programs\n\n💰 Long-term:\n• ESOPs for full-time hires after 1 year\n• Performance bonuses\n\nNote: Benefits may vary slightly by role and tenure. Contact HR for complete details."
+      },
+      {
+        "patterns": ["company values", "core values", "culture values", "organizational values"],
+        "response": "Our Core Values:\n\n1) Ownership over Blame\n• We take responsibility for our work\n• Mistakes are learning opportunities, not blame games\n• Every team member owns their deliverables end-to-end\n\n2) Ship Fast, Iterate Faster\n• We believe in rapid prototyping and iteration\n• Better to ship and learn than perfect indefinitely\n• Continuous improvement is in our DNA\n\n3) Radical Transparency\n• Open communication across all levels\n• Share wins, failures, and learnings openly\n• No hidden agendas or politics\n\n4) Customer Obsession\n• Users are at the center of every decision\n• We build products that solve real problems\n• Success is measured by customer impact\n\nWork Style:\n• Agile sprints (2-week cycles)\n• You own your features end-to-end\n• Collaborative squad model\n\nDiversity & Inclusion:\n• 40% of engineering team identifies as women\n• Equal opportunity employer\n• Inclusive hiring practices"
+      },
+      {
+        "patterns": ["career growth", "career path", "promotion", "career progression"],
+        "response": "Career Growth at Cyclone:\n\nPromotion Philosophy:\n• Engineers are promoted based on output and ownership, not tenure\n• Average time to mid-level: 18 months\n• Clear performance metrics and expectations\n\nCareer Levels:\n• Junior (0-2 years): Learn fundamentals, work on features\n• Mid-level (2-4 years): Own modules, mentor juniors\n• Senior (4-6 years): Lead projects, architectural decisions\n• Lead/Principal (6+ years): Technical direction, team building\n\nGrowth Pathways:\n1) Technical Track:\n   Junior Dev → Mid Dev → Senior Dev → Tech Lead → Principal Engineer\n\n2) Management Track:\n   Junior Dev → Senior Dev → Team Lead → Engineering Manager → Director\n\n3) Specialist Track:\n   Domain expertise in areas like DevOps, Data, Security\n\nSupport for Growth:\n• Structured mentorship from senior engineers\n• ₹10,000 annual learning budget for certifications\n• Access to internal tech talks\n• Exposure to diverse client projects\n• Regular 1:1s with managers for career planning"
+      },
+      {
+        "patterns": ["team structure", "team size", "team composition", "who will i work with"],
+        "response": "Team Structure at Cyclone:\n\nEngineering Squads (4-6 people):\n• 1 Tech Lead (guides technical decisions)\n• 1-2 Senior Developers (code reviews, mentorship)\n• 1-2 Junior/Mid Developers (feature development)\n• 1 Designer (UI/UX)\n• 1 QA Engineer (quality assurance)\n\nYou will work directly with:\n• Senior engineers for mentorship\n• Product managers for requirements\n• Designers for implementation\n• QA for testing\n\nAnalytics Team (3-4 people):\n• Senior analysts\n• Data engineers\n• Collaboration with product teams\n\nDesign Team (3-4 designers):\n• Supporting multiple product teams\n• Wireframes, prototypes, design systems\n\nDevOps Team (3-5 people):\n• Supporting all engineering squads\n• CI/CD, cloud infrastructure, monitoring\n\nDaily Operations:\n• Daily standups (15 min)\n• Sprint planning (bi-weekly)\n• Code reviews (mandatory)\n• Retrospectives (bi-weekly)\n\nYou'll own your features end-to-end and have direct access to senior team members for guidance."
+      },
+      {
+        "patterns": ["detailed tech stack", "technologies used", "tools and frameworks", "tech environment"],
+        "response": "Technology Stack at Cyclone:\n\nMobile Development:\n• Flutter & Dart (primary)\n• React Native (secondary)\n• Firebase (backend-as-a-service)\n• REST APIs integration\n\nWeb Development:\n• React & TypeScript (primary)\n• Angular (some projects)\n• HTML5, CSS3, JavaScript\n• State management: Redux, Context API\n\nBackend:\n• Node.js with Express\n• Python (Django, Flask)\n• Java (select projects)\n• RESTful API design\n\nDatabases:\n• PostgreSQL (primary)\n• MongoDB (NoSQL projects)\n• Firebase Firestore\n• Redis (caching)\n\nCloud & Infrastructure:\n• Amazon Web Services (AWS)\n• Google Cloud Platform (GCP)\n• Docker containerization\n• Kubernetes orchestration\n• Terraform (IaC)\n\nDevOps:\n• Jenkins (CI/CD)\n• GitLab CI\n• Git for version control\n• Monitoring: Prometheus, Grafana\n\nTools:\n• IDEs: VS Code, Android Studio\n• Design: Figma\n• Project Management: Jira, Confluence\n• Communication: Slack, Zoom\n\nWe're tech-agnostic — we adopt the best tool for each job!"
+      },
+      {
+        "patterns": ["internship program", "intern details", "internship info", "internship opportunity"],
+        "response": "Internship Program Details:\n\nDuration: 6 months\n\nStipend: ₹15,000 – ₹20,000/month (based on performance)\n\nWhat You'll Do:\n• Work on real client projects\n• Get structured mentorship\n• Learn industry best practices\n• Build a strong portfolio\n\nPerks During Internship:\n• MacBook Pro for work\n• ₹10,000 learning budget (pro-rated)\n• Free lunch on office days\n• Flexible hours\n\nAfter Internship:\n• Performance-based conversion to full-time\n• Salary: ₹4.5-7 LPA (based on performance)\n• All full-time benefits from day one\n\nWho Should Apply:\n• B.Tech/BCA/B.Sc final year or recent graduates\n• Strong interest in mobile/web development\n• Basic programming knowledge\n• Eagerness to learn\n\nHow to Apply:\n• Apply at https://cyclone.io/careers/apply\n• Mention 'Internship' in subject line\n• Include any projects you've built\n\nNote: Internship positions fill fast. Apply early!"
+      },
+      {
+        "patterns": ["work life balance", "working hours", "work hours", "office timing"],
+        "response": "Work-Life Balance at Cyclone:\n\nWorking Hours:\n• Core hours: 11am – 4pm (everyone available)\n• Flexible outside core hours\n• Best for deep work: mornings\n\nOffice Days (Hybrid):\n• Tuesday, Wednesday, Thursday — in office\n• Monday, Friday — remote/work from home\n\nLeave Policy:\n• Annual leave as per company policy\n• Sick leave available\n• Optional: flexible vacation approach\n\nWhat Helps Work-Life Balance:\n✅ No unnecessary meetings\n✅ Agile sprints reduce overtime\n✅ Ownership model means no micro-management\n✅ Remote days reduce commute stress\n✅ Team off-sites for bonding\n\nNote: During sprint deadlines, some extra hours may be needed. But we believe in sustainable pace, not crunch culture."
+      },
+      {
+        "patterns": ["diversity inclusion", "diversity", "inclusion", "equal opportunity"],
+        "response": "Diversity & Inclusion at Cyclone:\n\nOur Diversity Stats:\n• 40% of engineering team identifies as women\n• Team members from 15+ different cities\n• Diverse educational backgrounds (NITs, state colleges, bootcamps)\n\nEqual Opportunity:\n• We are an equal opportunity employer\n• No discrimination based on gender, caste, religion, sexual orientation\n• Hiring based on skills and potential, not pedigree\n\nInclusion Initiatives:\n• Safe workspace policies\n• Flexible leave for new parents\n• Mentorship programs for underrepresented groups\n• Regular DEI awareness sessions\n\nWhat We Look For:\n• Skills over degrees\n• Problem-solving ability\n• Growth mindset\n• Collaboration spirit\n\nWe believe diverse teams build better products. Different perspectives lead to better solutions for all users."
+      },
+      {
+        "patterns": ["why join cyclone", "why cyclone", "reasons to join", "benefits of joining"],
+        "response": "Why Join Cyclone?\n\n1) Real Project Experience\n• From day one, work on live client projects\n• Not bench time or fake projects\n• Ship products used by millions\n\n2) Mentorship & Growth\n• Structured mentorship from senior engineers\n• Fast-track your career (avg 18 months to mid-level)\n• ₹10,000 annual learning budget\n\n3) Modern Tech Stack\n• Work with Flutter, React, AWS, Kubernetes\n• Stay current with industry trends\n• Tech-agnostic — best tool for each job\n\n4) Great Culture\n• Ownership over blame\n• Radical transparency\n• No politics, just shipping\n\n5) Competitive Compensation\n• Salaries ₹4.5-13 LPA based on role\n• MacBook Pro, health insurance\n• ESOPs after 1 year\n\n6) Work-Life Balance\n• Hybrid model (3 days office, 2 remote)\n• Flexible hours\n• No crunch culture\n\n7) Impact\n• 85+ products shipped\n• 4+ million users\n• Work across fintech, edtech, healthtech\n\nJoin us if you want to build, learn, and grow!"
+      }
+    ]
+  },
+
+  "fallback": {
+    "contact_message": "For more detailed information, please contact our HR team at careers@cyclone.io or visit https://cyclone.io/careers/apply"
+  }
+}
